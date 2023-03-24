@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/poorwill/static/css/main.8f1e2eed.css",
+    "main.js": "/poorwill/static/js/main.9148a9fc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/poorwill/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg-image.png": "/poorwill/static/media/bg-image.658c34c4a40f41bca5e7.png",
+    "static/media/logo.png": "/poorwill/static/media/logo.742d148f08fe2778fdf0.png",
+    "static/media/EP.jpeg": "/poorwill/static/media/EP.8c2dc217a010f5aa6521.jpeg",
+    "index.html": "/poorwill/index.html",
+    "main.8f1e2eed.css.map": "/poorwill/static/css/main.8f1e2eed.css.map",
+    "main.9148a9fc.js.map": "/poorwill/static/js/main.9148a9fc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/poorwill/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f1e2eed.css",
+    "static/js/main.9148a9fc.js"
+  ]
+}
