@@ -1,96 +1,48 @@
+@import url('./fonts/fonts.css');
+
 .App {
   text-align: center;
+  background-color: #F3BB1B;
 }
 
-.main-content {
-  margin-top: 15%
+@font-face {
+  font-family: 'BubbleShack';
+  src: local('BubbleShack'),
+    url('./fonts/KCBubbleShack.otf') format('otf')
 }
 
-.text-heading {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 54px;
-  line-height: 70px;
+.heading {
   text-align: center;
-  letter-spacing: 0.115em;
-  text-transform: uppercase;
-  padding: 20% 15% 0;
-  color: #FFFFFF;
-}
-
-p{
-  font-family: 'Montserrat';
+  background-color: #161616;
+  color: #FBE7D8;
+  font-family: KC Bubble Shack;
+  font-size: 140px;
   font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #FFFFFF;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 63.8px;
+  padding-top: 2%;
+  padding-left: 2%;
+  margin: 50px;
+  box-shadow:
+  0 0 0 10px #F2A4B7,
+  0 0 0 30px #161616;
 }
 
-.nav-bar {
-  background-color: #FFDC91;
-  justify-content: space-between;
-  padding: 10px 50px
+.side-col{
+  border: 3px solid #161616;
+background: #D5282D;
+
+padding: 30px;
 }
 
-.nav-item {
-  color: #791031 !important;
-  font-family: "Montserrat";
-  letter-spacing: 0.035em;
-  font-weight: 600;
+.content-row{
+  margin: 10px 20px;
 }
 
-.logo {
-  justify-content: space-between;
+.flip{
+  transform: rotate(-180deg);
 }
-
-.socials {
-  justify-content: right;
-}
-
-.socials-img {
-  padding: 5px
-}
-
-.band-photo {
-  width: 100%;
-  height: 100%
-}
-
-.break{
-  height: 5px;
-  background-color: #F83A32;
-  margin: 5%
-}
-
-h1{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 96px;
-  line-height: 117px;
-  text-align: center;
-  letter-spacing: 0.115em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.shows-container{
-  margin: 0 20% 20%;
-  padding: 5%;
-  background-color: #4EC1E3;
-}
-
-.show-item{
-  padding: 15px 15px 0
-}
-
-.ticket-button{
-  margin-bottom: 5%;
-}
-
 .btn-primary {
   color: #fff;
   background-color: #791031;
@@ -111,40 +63,8 @@ h1{
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
   color: black;
   background-color: #BE93A1;
   border-color: #791031;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }

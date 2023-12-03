@@ -6,43 +6,8 @@ const Header = () => {
 
 
     return (
-        <Navbar className="nav-bar" fixed="top">
-            <Button variant="primary">Contact us</Button>
-            <div>
-                <img
-                    alt=""
-                    src={require("../img/logo.png")}
-                    width='50%'
-                    className="logo"
-                />{" "}
-            </div>
-
-
-            
-            <div className="socials">
-            <a href="https://open.spotify.com/artist/242EQUEtpStM9vH0AoPwGt?si=suncu_mMTa61BoW2i9iCUg">
-                    <img
-                        alt="spotify logo"
-                        className="socials-img"
-                        src={require("../img/spotify.png")}
-                    />
-                </a>
-                <a href="https://www.instagram.com/_poorwill_">
-                    <img
-                        alt="instagram logo"
-                        className="socials-img"
-                        src={require("../img/instagram.png")}
-                    />
-                </a>
-                <a href="https://www.facebook.com/poorwillband">
-                    <img
-                        alt="facebook logo"
-                        className="socials-img"
-                        src={require("../img/fb.png")}
-                    />
-                </a>
-            </div>
-        </Navbar>
+        // <img src={require("../img/Heading.png")}></img>
+        <h1 className="heading">Poorwill</h1>
     );
 };
 

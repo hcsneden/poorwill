@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BubbleShack';
+    src: local('BubbleShack'),
+         url('./KCBubbleShack.otf') format('otf')
+}
