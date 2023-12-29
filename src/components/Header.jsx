@@ -10,8 +10,6 @@ const Header = (props) => {
             <div className='text-heading'>
                Poorwill
             </div>
-
-
             
             <div className="socials">
             <a href="https://open.spotify.com/artist/242EQUEtpStM9vH0AoPwGt?si=suncu_mMTa61BoW2i9iCUg">

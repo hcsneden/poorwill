@@ -49,20 +49,26 @@ p{
   padding: 5px 20px
 }
 
+.link-button{
+  margin: 12% 5%;
+  padding: 15px
+}
 
 .btn-primary {
-  color: #fff;
-  background-color: #791031;
-  border: none;
-  border-radius: 30px;
-  font-family: 'Montserrat'
+  color: #4f6b61;
+  background-color: #b8cec6;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  border:#4f6b61;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .btn-secondary {
   color: #410014;
   background-color: #BE93A1;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   font-family: 'Montserrat'
 }
 
@@ -71,9 +77,9 @@ p{
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: black;
-  background-color: #BE93A1;
-  border-color: #791031;
+  color: #fff;
+  background-color: #4f6b61;
+  border-color: #4f6b61;
 }
 
 
