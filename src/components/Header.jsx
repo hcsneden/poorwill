@@ -2,12 +2,12 @@ import React from "react";
 import { Navbar, Container, Nav, NavDropdown, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
 
 
     return (
         <Navbar className="nav-bar" fixed="top">
-            <Button variant="primary">Contact us</Button>
+            <Button className="content-button"variant="primary" onClick={props.handleShow}>Contact us</Button>
             <div>
                 <img
                     alt=""
