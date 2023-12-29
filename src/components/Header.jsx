@@ -7,14 +7,8 @@ const Header = (props) => {
 
     return (
         <Navbar className="nav-bar" fixed="top">
-            <Button className="content-button"variant="primary" onClick={props.handleShow}>Contact us</Button>
-            <div>
-                <img
-                    alt=""
-                    src={require("../img/logo.png")}
-                    width='50%'
-                    className="logo"
-                />{" "}
+            <div className='text-heading'>
+               Poorwill
             </div>
 
 

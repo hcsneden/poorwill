@@ -1,22 +1,36 @@
+@font-face {
+  font-family: KCBubble;
+  src: url('./fonts/KCBubbleShack.otf');
+}
+
 .App {
   text-align: center;
 }
 
 .main-content {
-  margin-top: 15%
+  background-image: url('./img/header-photo.jpg');
+  background-size: cover;
+  height: 800px;
+  background-position: center;
 }
 
 .text-heading {
-  font-family: 'Montserrat';
+  font-family: 'KCBubble';
   font-style: normal;
   font-weight: 500;
   font-size: 54px;
-  line-height: 70px;
   text-align: center;
   letter-spacing: 0.115em;
   text-transform: uppercase;
-  padding: 20% 15% 0;
-  color: #FFFFFF;
+  color: #7D938B;
+}
+
+.socials {
+  justify-content: right;
+}
+
+.socials-img {
+  padding: 5px
 }
 
 p{
@@ -30,66 +44,11 @@ p{
 }
 
 .nav-bar {
-  background-color: #FFDC91;
+  background-color: #DCB77E;
   justify-content: space-between;
-  padding: 10px 50px
+  padding: 5px 20px
 }
 
-.nav-item {
-  color: #791031 !important;
-  font-family: "Montserrat";
-  letter-spacing: 0.035em;
-  font-weight: 600;
-}
-
-.logo {
-  justify-content: space-between;
-}
-
-.socials {
-  justify-content: right;
-}
-
-.socials-img {
-  padding: 5px
-}
-
-.band-photo {
-  width: 100%;
-  height: 100%
-}
-
-.break{
-  height: 5px;
-  background-color: #F83A32;
-  margin: 5%
-}
-
-h1{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 96px;
-  line-height: 117px;
-  text-align: center;
-  letter-spacing: 0.115em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.shows-container{
-  margin: 0 20% 20%;
-  padding: 5%;
-  background-color: #4EC1E3;
-}
-
-.show-item{
-  padding: 15px 15px 0
-}
-
-.ticket-button{
-  margin-bottom: 5%;
-}
 
 .btn-primary {
   color: #fff;
