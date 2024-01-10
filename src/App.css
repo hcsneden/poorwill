@@ -8,10 +8,17 @@
 }
 
 .main-content {
-  background-image: url('./img/header-photo.jpg');
+  background-image: url('./img/Frame\ 22.png');
   background-size: cover;
   height: 800px;
   background-position: center;
+  margin-top: 90px;
+}
+
+.hero-image{
+  margin-top: 90px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .text-heading {
@@ -33,18 +40,38 @@
   padding: 5px
 }
 
-p{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #FFFFFF;
+.cards{
+  margin: 5% 20%;
+  font-family: 'Courier New';
 }
 
+.card{
+  padding: 2%;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+
+.about{
+  background-color: #EA8767;
+  
+}
+
+.shows{
+  background-color: #8ADBC8;
+  border-radius: 15px;
+}
+
+.show-title{
+  font-weight: 500;
+}
+
+.contact{
+  background-color: #8ADBC8;
+}
+
+
 .nav-bar {
-  background-color: #DCB77E;
+  background-color: #EFDAE9;
   justify-content: space-between;
   padding: 5px 20px
 }
