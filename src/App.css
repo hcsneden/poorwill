@@ -5,6 +5,7 @@
 
 .App {
   text-align: center;
+  
 }
 
 .main-content {
@@ -49,6 +50,7 @@
   padding: 2%;
   border-radius: 15px;
   margin-bottom: 5%;
+  color: white;
 }
 
 .about{
@@ -56,8 +58,13 @@
   
 }
 
+h2{
+  font-family: 'KCBubble';
+  font-weight: 400;
+}
+
 .shows{
-  background-color: #8ADBC8;
+  background-color: #8856DB;
   border-radius: 15px;
 }
 
@@ -66,7 +73,7 @@
 }
 
 .contact{
-  background-color: #8ADBC8;
+  background-color: #D9D009;
 }
 
 

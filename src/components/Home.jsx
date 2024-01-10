@@ -13,6 +13,11 @@ const Home = () => {
                 <Col md={4}></Col>
                 <Col className="card shows" md={4}><h2>Shows</h2> <p className="show-title">Lift Bridge Brewery / Jan 27 / 3PM</p><p></p></Col>
             </Row>
+            <Row className="cards">
+                <Col className="card contact" md={{ span: 4, offset: 4 }}><h2>Contact</h2>
+                    <p>To get in touch with us about booking or anything else, send us an email at <a href = "mailto: abc@example.com">poorwillandfriends@gmail.com</a></p>
+                </Col>
+            </Row>
         </div>
     )
 }
